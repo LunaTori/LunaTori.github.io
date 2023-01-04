@@ -8,7 +8,7 @@ class soundFile {
   constructor(file, deferPlay) {
     //this.deferPlay = false;
     this.player = new Tone.Player({
-      url: "../sounds/" + file,
+      url: "../Sounds/" + file,
       loop: false,
       autostart: false
     }).toMaster();
@@ -39,12 +39,12 @@ export function playDeferredSounds() {
   }
 }
 
-export var soundArray = []; //list of sounds loaded
+export var soundArray = []; //list of Sounds loaded
 
 //Here is where all the Sound File Players Start
 
 export var wallSound = new soundFile("tap-resonant.mp3"); //load sound
-soundArray.push(wallSound); //add sound to list of sounds
+soundArray.push(wallSound); //add sound to list of Sounds
 
 export var paddleSound = new soundFile("tap-percussive.mp3");
 soundArray.push(paddleSound);
