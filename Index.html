@@ -2,21 +2,19 @@
 <html lang="en">
   <head>
     <title>Audio PONG</title>
-    <script src="../audio-video-player/Javascript/Tone.js"></script>
+    <script src="../audio-video-player/javascript/Tone.js"></script>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./pong-styles.css"/>
-
-
+    <link rel="stylesheet" href="./pong-styles.css" />
   </head>
 
-  <body><center>
-    <p>enjoy this slow PONG; there's a 7Hz meditation tone in the background; use up and down arrows to control the right paddle; use "w" and "s" to control the left paddle.</p>
+  <body>
     <div id="game">
       <div class="paddle" id="left-paddle"></div>
       <div class="paddle" id="right-paddle"></div>
       <div class="ball" id="ball"></div>
+
       <h1 class="score" id="left-score">0</h1>
-      <h1 class="score" id="right-score">0</h1
+      <h1 class="score" id="right-score">0</h1>
     </div>
 
     <div id="instructions">
@@ -47,5 +45,5 @@
     <script type="module" src="../audio-video-player/Javascript/pong-events.js"></script>
     <script type="module" src="../audio-video-player/Javascript/pong-util.js"></script>
     <script type="module" src="../audio-video-player/Javascript/pong-index.js"></script>
-</center>  </body>
+  </body>
 </html>
