@@ -43,26 +43,26 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("coolbell.mp3"); //load sound
+export var wallSound = new soundFile("tap-resonant.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("ballbell.mp3");
+export var paddleSound = new soundFile("tap-percussive.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("coolbell.mp3");
+export var scoreSound = new soundFile("phaserDown2.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("sevenhz.mp3");
+export var ambientSound = new soundFile("ocean-waves.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("throat.mp3");
+export var adventureMusic = new soundFile("Adventure_Meme.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
 
-export var villageMusic = new soundFile("lowbell.mp3");
+export var villageMusic = new soundFile("Eight_Bit_Village_Loop.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
