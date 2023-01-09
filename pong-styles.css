@@ -14,8 +14,9 @@ body {
   border: 5px solid purple;
   left: 0;
   position: absolute;
-  background-image: url ("https://media.giphy.com/media/gtuQIOTlQdk9Mx3L5i/giphy.gif");
   background-size: cover;
+  background-image: url("https://media1.giphy.com/media/gtuQIOTlQdk9Mx3L5i/giphy.gif?cid=790b76113f5a3723b16f2921b27a894b4321a607abe993bf&rid=giphy.gif&ct=g");
+
 }
 
 #left-paddle {
