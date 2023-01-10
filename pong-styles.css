@@ -77,10 +77,10 @@ body {
 .ball {
   background-image: url(https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/87/latest/20210226185630/Pok%C3%A9_Ball_%28Hisui%29_%28Ilustraci%C3%B3n%29.png/1200px-Pok%C3%A9_Ball_%28Hisui%29_%28Ilustraci%C3%B3n%29.png);
   background-size: contain;
-  width: 35px;
-  height: 35px;
-  background-color: transparent;
-  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+  border-radius: 1px;
   position: absolute;
   left: 50px;
   top: 50px;
