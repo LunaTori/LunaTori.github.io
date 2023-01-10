@@ -46,11 +46,11 @@ export var soundArray = []; //list of Sounds loaded
 export var wallSound = new soundFile("Pokemon Center.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of Sounds
 
-export var paddleSound = new soundFile("Pokemon Battle Cry.wav");
-soundArray.push(paddleSound);
+//export var paddleSound = new soundFile("Pokemon Battle Cry.wav");
+//soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("Pikachu.wav");
-soundArray.push(scoreSound);
+//export var scoreSound = new soundFile("Pikachu.wav");
+//soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("Pokemon Background.wav");
 soundArray.push(ambientSound);
@@ -62,7 +62,7 @@ soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
 
-export var villageMusic = new soundFile("Pokemon Route.mp3");
-soundArray.push(villageMusic);
-villageMusic.player.loop = true;
-villageMusic.player.volume.value = -16;
+//export var villageMusic = new soundFile("Pokemon Route.mp3");
+//soundArray.push(villageMusic);
+//villageMusic.player.loop = true;
+//villageMusic.player.volume.value = -16;
