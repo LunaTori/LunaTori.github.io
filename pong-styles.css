@@ -77,8 +77,8 @@ body {
 .ball {
   background-image: url(https://img.rankedboost.com/wp-content/uploads/2022/01/Pokemon-Legends-Arceus-Poke-Ball.png);
   background-size: contain;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   background-color: white;
   border-radius: 10px;
   position: absolute;
