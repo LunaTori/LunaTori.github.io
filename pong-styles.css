@@ -34,8 +34,8 @@ body {
   display: block;
   bottom: 0;
   position: absolute;
-  margin: 10px;
-  font-family: Asimov, sans-serif; 
+  margin: 20px;
+  font-family: Asimov, Consolas, sans-serif; 
 }
 
 #errors-debug {
@@ -44,7 +44,7 @@ body {
   position: absolute;
   margin: 10px;
   padding-left: 400px;
-  font-family: Asimov, sans-serif;
+  font-family: Asimov, Consolas, sans-serif;
 }
 
 #errors {
