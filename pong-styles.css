@@ -35,7 +35,7 @@ body {
   bottom: 0;
   position: absolute;
   margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Asimov, sans-serif; 
 }
 
 #errors-debug {
@@ -44,7 +44,7 @@ body {
   position: absolute;
   margin: 10px;
   padding-left: 400px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Asimov, sans-serif;
 }
 
 #errors {
@@ -88,7 +88,7 @@ body {
 
 .score {
   position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Asimov, sans-serif;
   top: 0;
 }
 
